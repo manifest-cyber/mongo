@@ -376,7 +376,7 @@ crate.spec(
         "wasi",
     ],
     package = "wasmtime-c-api-impl",
-    version = "=40.0.2",
+    version = "=40.0.4",
 )
 
 # We partially custom build wasmtime_c because otherwise it tries to use cmake
