@@ -170,7 +170,7 @@ def grpc_deps():
             strip_prefix = "bazel-toolchains-4.1.0",
             urls = [
                 "https://mirror.bazel.build/github.com/bazelbuild/bazel-toolchains/releases/download/4.1.0/bazel-toolchains-4.1.0.tar.gz",
-                "https://github.com/bazelbuild/bazel-toolchains/releases/download/4.1.0/bazel-toolchains-4.1.0.tar.gz",
+                "https://github.com/bazelbuild/bazel-toolchains/releases/download/v5.1.2/bazel-toolchains-4.1.0.tar.gz",
             ],
         )
 
