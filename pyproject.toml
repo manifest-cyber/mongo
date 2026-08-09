@@ -111,7 +111,7 @@ twisted-iocpsupport = { version = "^1.0.4", markers = "sys_platform == 'win32'" 
 ldaptor = "19.0.0"
 
 [tool.poetry.group.idl.dependencies]
-unittest-xml-reporting = "3.2.0"
+unittest-xml-reporting = "4.0.0"
 packaging = "^25.0"
 
 [tool.poetry.group.jira-client.dependencies]
