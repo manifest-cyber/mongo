@@ -104,7 +104,7 @@ structlog = "^24.4.0"
 passlib = "^1.7.4"
 pyOpenSSL = "^25.0.0"
 pyparsing = "^2.4.7"
-service_identity = "^18.1.0"
+service_identity = "^26.0.0"
 twisted = "^24.3.0"
 twisted-iocpsupport = { version = "^1.0.4", markers = "sys_platform == 'win32'" }
 'zope.interface' = "^8.1.1"
