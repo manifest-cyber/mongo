@@ -48,7 +48,7 @@ jobs:
 
     - name: Create Cache Timestamp
       id: cache_timestamp
-      uses: nanzm/get-time-action@v1.1
+      uses: nanzm/get-time-action@887e4db9af58ebae64998b7105921b816af77977 # v2.0
       with:
         format: 'YYYY-MM-DD-HH-mm-ss'
 
