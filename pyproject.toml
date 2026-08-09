@@ -97,7 +97,7 @@ click = "^8.1.7"
 inject = "^5.2.1"
 GitPython = "^3.1.43"
 pydantic = "*"
-structlog = "^24.4.0"
+structlog = "^26.0.0"
 
 [tool.poetry.group.external-auth.dependencies]
 # These are the dependencies of ldaptor
@@ -124,7 +124,7 @@ PyJWT = "^2.9.0"
 # Note: These versions are checked by python modules in buildscripts/linter/
 GitPython = "^3.1.7"
 mypy = "^1.11.1"
-structlog = "^24.4.0"
+structlog = "^26.0.0"
 yamllint = "^1.35.1"
 types-setuptools = "^80.9.0"
 types-requests = "^2.32.0.20240712"
