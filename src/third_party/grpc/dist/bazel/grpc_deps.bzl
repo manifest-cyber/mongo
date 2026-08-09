@@ -286,10 +286,10 @@ def grpc_deps():
     if "build_bazel_rules_apple" not in native.existing_rules():
         http_archive(
             name = "build_bazel_rules_apple",
-            sha256 = "86ff9c3a2c7bc308fef339bcd5b3819aa735215033886cc281eb63f10cd17976",
+            sha256 = "e4649d4649ef14adbc421738377d21ea75a1053d8e8f6838fc08e82328599a0f",
             urls = [
-                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/bazelbuild/rules_apple/releases/download/3.16.0/rules_apple.3.16.0.tar.gz",
-                "https://github.com/bazelbuild/rules_apple/releases/download/3.16.0/rules_apple.3.16.0.tar.gz",
+                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/bazelbuild/rules_apple/releases/download/4.5.3/rules_apple.4.5.3.tar.gz",
+                "https://github.com/bazelbuild/rules_apple/releases/download/4.5.3/rules_apple.4.5.3.tar.gz",
             ],
         )
 
