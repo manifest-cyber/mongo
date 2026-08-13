@@ -36,9 +36,9 @@ http_archive(
 # GoogleTest/GoogleMock framework. Used by most unit-tests.
 http_archive(
     name = "com_google_googletest",  # 2023-06-15T14:52:03Z
-    sha256 = "35908733d9ea615be95517f6e15aea46191b2670d791b17ac841944272093ed2",
-    strip_prefix = "googletest-18fa6a4db32a30675c0b19bf72f8b5f693d21a23",
-    urls = ["https://github.com/google/googletest/archive/18fa6a4db32a30675c0b19bf72f8b5f693d21a23.zip"],
+    sha256 = "2c383762e16082588a9056b9fb0b7ace5152046076e0114bee851d8efcf39593",
+    strip_prefix = "googletest-02e50550c6d65eee1c2038e07f4fb9e99961e666",
+    urls = ["https://github.com/google/googletest/archive/02e50550c6d65eee1c2038e07f4fb9e99961e666.zip"],
 )
 
 # RE2
