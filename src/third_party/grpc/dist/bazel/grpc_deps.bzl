@@ -306,12 +306,12 @@ def grpc_deps():
     if "com_google_googleapis" not in native.existing_rules():
         http_archive(
             name = "com_google_googleapis",
-            sha256 = "0513f0f40af63bd05dc789cacc334ab6cec27cc89db596557cb2dfe8919463e4",
-            strip_prefix = "googleapis-fe8ba054ad4f7eca946c2d14a63c3f07c0b586a0",
+            sha256 = "5b7c9f1971c9cd1eec2d6b1273cdceddc8db17fac81df89b479fee8c3fc85934",
+            strip_prefix = "googleapis-29da218f022fcd6af34142e9128699ed04820a11",
             build_file = Label("//bazel:googleapis.BUILD"),
             urls = [
-                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/googleapis/googleapis/archive/fe8ba054ad4f7eca946c2d14a63c3f07c0b586a0.tar.gz",
-                "https://github.com/googleapis/googleapis/archive/fe8ba054ad4f7eca946c2d14a63c3f07c0b586a0.tar.gz",
+                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/googleapis/googleapis/archive/29da218f022fcd6af34142e9128699ed04820a11.tar.gz",
+                "https://github.com/googleapis/googleapis/archive/29da218f022fcd6af34142e9128699ed04820a11.tar.gz",
             ],
         )
 
