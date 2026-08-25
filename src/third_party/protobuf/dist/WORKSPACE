@@ -84,7 +84,7 @@ maven_install(
     name = "protobuf_maven_dev",
     artifacts = [
         "com.google.caliper:caliper:1.0-beta-3",
-        "com.google.guava:guava-testlib:32.0.1-jre",
+        "com.google.guava:guava-testlib:33.7.1-jre",
         "com.google.testparameterinjector:test-parameter-injector:1.18",
         "com.google.truth:truth:1.1.2",
         "junit:junit:4.13.2",
