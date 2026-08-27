@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:26.04
 
 EXPOSE 27017
 EXPOSE 27018

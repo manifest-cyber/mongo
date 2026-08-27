@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:26.04
 
 # Expose a port range because the mongo binaries that are eventually started using this
 # image will use the ports determined by resmoke. Resmoke determines the port to use
