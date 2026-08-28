@@ -177,8 +177,8 @@ def protobuf_deps():
     if not native.existing_rule("rules_kotlin"):
         http_archive(
             name = "rules_kotlin",
-            sha256 = "3b772976fec7bdcda1d84b9d39b176589424c047eb2175bed09aac630e50af43",
-            url = "https://github.com/bazelbuild/rules_kotlin/releases/download/v1.9.6/rules_kotlin-v1.9.6.tar.gz",
+            sha256 = "e40ccc013f874e063bb64fed0f816b881991cb300bce45085e1204644892c59c",
+            url = "https://github.com/bazelbuild/rules_kotlin/releases/download/v2.4.10/rules_kotlin-v2.4.10.tar.gz",
         )
 
     if not native.existing_rule("rules_license"):
