@@ -4,9 +4,9 @@ load("//bazel/toolchains/cc/mongo_linux:mongo_gdb.bzl", "setup_gdb_toolchains")
 
 http_archive(
     name = "aspect_rules_lint",
-    sha256 = "f60e4a737a5e09402f5fa3bd182efa80dac5523ca4b9bc5c6fa8c06fbfb46630",
-    strip_prefix = "rules_lint-1.1.0",
-    url = "https://github.com/aspect-build/rules_lint/releases/download/v1.1.0/rules_lint-v1.1.0.tar.gz",
+    sha256 = "389cee25621d698b4a7192f715308522add4a141b292204165ef68f149396b93",
+    strip_prefix = "rules_lint-2.8.0",
+    url = "https://github.com/aspect-build/rules_lint/releases/download/v2.8.0/rules_lint-v2.8.0.tar.gz",
 )
 
 setup_mongo_toolchains()
