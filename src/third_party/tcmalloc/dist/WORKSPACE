@@ -72,9 +72,9 @@ http_archive(
 # and https://github.com/google/tcmalloc/issues/127
 http_archive(
     name = "rules_python",
-    sha256 = "c03246c11efd49266e8e41e12931090b613e12a59e6f55ba2efd29a7cb8b4258",
-    strip_prefix = "rules_python-0.11.0",
-    urls = ["https://github.com/bazelbuild/rules_python/archive/refs/tags/0.11.0.tar.gz"],
+    sha256 = "25a00d55e4376ef6d9f28938b68038faca17c95580c9afe6953e7dde013d00e4",
+    strip_prefix = "rules_python-2.3.2",
+    urls = ["https://github.com/bazelbuild/rules_python/archive/refs/tags/2.3.2.tar.gz"],
 )
 
 # Proto rules for Bazel and Protobuf
