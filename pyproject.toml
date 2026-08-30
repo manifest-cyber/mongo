@@ -90,7 +90,7 @@ rapidyaml = { version = "==0.9.0.post0", source = "mdb-build-public", markers = 
 pipx = "1.6.0"
 # TODO: Add in pex as we move forward with this
 # pex = "^2.1.137"
-poetry = "2.0.0"
+poetry = "2.3.4"
 
 [tool.poetry.group.evergreen.dependencies]
 click = "^8.1.7"
