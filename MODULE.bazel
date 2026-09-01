@@ -425,7 +425,7 @@ crate.spec(
         "pulley",
     ],
     package = "wasmtime-cli",
-    version = "=40.0.2",
+    version = "=48.0.1",
 )
 
 # This causes us to build the actual binary and not just the rlib
