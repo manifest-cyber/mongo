@@ -1357,22 +1357,22 @@ tool = ["click (>=6.0.0)"]
 
 [[package]]
 name = "googleapis-common-protos"
-version = "1.66.0"
+version = "1.75.2"
 description = "Common protobufs used in Google APIs"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.10"
 groups = ["testing"]
 markers = "platform_machine != \"s390x\" and platform_machine != \"ppc64le\" or platform_machine == \"s390x\" or platform_machine == \"ppc64le\""
 files = [
-    {file = "googleapis_common_protos-1.66.0-py2.py3-none-any.whl", hash = "sha256:d7abcd75fabb2e0ec9f74466401f6c119a0b498e27370e9be4c94cb7e382b8ed"},
-    {file = "googleapis_common_protos-1.66.0.tar.gz", hash = "sha256:c3e7b33d15fdca5374cc0a7346dd92ffa847425cc4ea941d970f13680052ec8c"},
+    {file = "googleapis_common_protos-1.75.2-py3-none-any.whl", hash = "sha256:6b83302f554ea93a0f48409c7fc2050f954bcbcddb7e3a9c76d4a823cb22920e"},
+    {file = "googleapis_common_protos-1.75.2.tar.gz", hash = "sha256:8829a3d1e4508c5b7b9a6b9525f7fccff611f8531644579a76466c29295d4bb2"},
 ]
 
 [package.dependencies]
-protobuf = ">=3.20.2,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4.21.4 || >4.21.4,<4.21.5 || >4.21.5,<6.0.0.dev0"
+protobuf = ">=6.33.5,<8.0.0"
 
 [package.extras]
-grpc = ["grpcio (>=1.44.0,<2.0.0.dev0)"]
+grpc = ["grpcio (>=1.59.0,<2.0.0)"]
 
 [[package]]
 name = "greenlet"
@@ -2987,24 +2987,23 @@ testing = ["google-api-core (>=1.31.5)"]
 
 [[package]]
 name = "protobuf"
-version = "5.29.3"
+version = "6.33.6"
 description = ""
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 groups = ["testing"]
 markers = "platform_machine != \"s390x\" and platform_machine != \"ppc64le\" or platform_machine == \"s390x\" or platform_machine == \"ppc64le\""
 files = [
-    {file = "protobuf-5.29.3-cp310-abi3-win32.whl", hash = "sha256:3ea51771449e1035f26069c4c7fd51fba990d07bc55ba80701c78f886bf9c888"},
-    {file = "protobuf-5.29.3-cp310-abi3-win_amd64.whl", hash = "sha256:a4fa6f80816a9a0678429e84973f2f98cbc218cca434abe8db2ad0bffc98503a"},
-    {file = "protobuf-5.29.3-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:a8434404bbf139aa9e1300dbf989667a83d42ddda9153d8ab76e0d5dcaca484e"},
-    {file = "protobuf-5.29.3-cp38-abi3-manylinux2014_aarch64.whl", hash = "sha256:daaf63f70f25e8689c072cfad4334ca0ac1d1e05a92fc15c54eb9cf23c3efd84"},
-    {file = "protobuf-5.29.3-cp38-abi3-manylinux2014_x86_64.whl", hash = "sha256:c027e08a08be10b67c06bf2370b99c811c466398c357e615ca88c91c07f0910f"},
-    {file = "protobuf-5.29.3-cp38-cp38-win32.whl", hash = "sha256:84a57163a0ccef3f96e4b6a20516cedcf5bb3a95a657131c5c3ac62200d23252"},
-    {file = "protobuf-5.29.3-cp38-cp38-win_amd64.whl", hash = "sha256:b89c115d877892a512f79a8114564fb435943b59067615894c3b13cd3e1fa107"},
-    {file = "protobuf-5.29.3-cp39-cp39-win32.whl", hash = "sha256:0eb32bfa5219fc8d4111803e9a690658aa2e6366384fd0851064b963b6d1f2a7"},
-    {file = "protobuf-5.29.3-cp39-cp39-win_amd64.whl", hash = "sha256:6ce8cc3389a20693bfde6c6562e03474c40851b44975c9b2bf6df7d8c4f864da"},
-    {file = "protobuf-5.29.3-py3-none-any.whl", hash = "sha256:0a18ed4a24198528f2333802eb075e59dea9d679ab7a6c5efb017a59004d849f"},
-    {file = "protobuf-5.29.3.tar.gz", hash = "sha256:5da0f41edaf117bde316404bad1a486cb4ededf8e4a54891296f648e8e076620"},
+    {file = "protobuf-6.33.6-cp310-abi3-win32.whl", hash = "sha256:7d29d9b65f8afef196f8334e80d6bc1d5d4adedb449971fefd3723824e6e77d3"},
+    {file = "protobuf-6.33.6-cp310-abi3-win_amd64.whl", hash = "sha256:0cd27b587afca21b7cfa59a74dcbd48a50f0a6400cfb59391340ad729d91d326"},
+    {file = "protobuf-6.33.6-cp39-abi3-macosx_10_9_universal2.whl", hash = "sha256:9720e6961b251bde64edfdab7d500725a2af5280f3f4c87e57c0208376aa8c3a"},
+    {file = "protobuf-6.33.6-cp39-abi3-manylinux2014_aarch64.whl", hash = "sha256:e2afbae9b8e1825e3529f88d514754e094278bb95eadc0e199751cdd9a2e82a2"},
+    {file = "protobuf-6.33.6-cp39-abi3-manylinux2014_s390x.whl", hash = "sha256:c96c37eec15086b79762ed265d59ab204dabc53056e3443e702d2681f4b39ce3"},
+    {file = "protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl", hash = "sha256:e9db7e292e0ab79dd108d7f1a94fe31601ce1ee3f7b79e0692043423020b0593"},
+    {file = "protobuf-6.33.6-cp39-cp39-win32.whl", hash = "sha256:bd56799fb262994b2c2faa1799693c95cc2e22c62f56fb43af311cae45d26f0e"},
+    {file = "protobuf-6.33.6-cp39-cp39-win_amd64.whl", hash = "sha256:f443a394af5ed23672bc6c486be138628fbe5c651ccbc536873d7da23d1868cf"},
+    {file = "protobuf-6.33.6-py3-none-any.whl", hash = "sha256:77179e006c476e69bf8e8ce866640091ec42e1beb80b213c3900006ecfba6901"},
+    {file = "protobuf-6.33.6.tar.gz", hash = "sha256:a6768d25248312c297558af96a9f9c929e8c4cee0659cb07e780731095f38135"},
 ]
 
 [[package]]
@@ -3902,8 +3901,17 @@ python-versions = ">=3.6"
 groups = ["powercycle-incompatible"]
 markers = "(platform_machine != \"s390x\" and platform_machine != \"ppc64le\" or platform_machine == \"s390x\" or platform_machine == \"ppc64le\") and python_version == \"3.13\""
 files = [
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-macosx_10_13_x86_64.whl", hash = "sha256:dacc7b634a836fd8d439321a4310aad6c23dba2a5936364a7a2c0d7704bcfae3"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:1b829e4652fe6bd70f868eb9e39ccc8bc2c3227bba491006493894e9a8fbaacc"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:3e0beeebf91779c50b7cfe3a3c7bc4a54fe78ddaa8e09dcbd8565408d01d3e6d"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl", hash = "sha256:bcd0535f284e200248d24b95e5ad0bb8caab639a74eb7b1d57c47ac6f6ad3b69"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:8803369277aea17d9302b2022015d19b83c5e3f2994263fdb114f1c2b8f6c33a"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:cad08b44de36f918ea952cb6b3dc3cf385a6a7de423ddacb77150f040e0d48e1"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-win_amd64.whl", hash = "sha256:96aa6dcb5d6d190478b6de45124fb26dd3f4db023dbe8fe9ed33de47883a7816"},
+    {file = "rapidyaml-0.9.0.post0-cp312-cp312-win_amd64.whl", hash = "sha256:d23cfe03a5523286c29cda795a3fd41c985d25b6bc93665b15d1e44717705738"},
     {file = "rapidyaml-0.9.0.post0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:5276ca91c401d5a8c0a2a97b3a63d7d42af7ed79be0aaa223ab73cdeb1ec35f1"},
     {file = "rapidyaml-0.9.0.post0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:6c0136ae1e3f06e9e5e123cbb8b3646507259c0292ed76ac152c302c40856cd6"},
+    {file = "rapidyaml-0.9.0.post0-cp313-cp313-macosx_26_0_x86_64.whl", hash = "sha256:33802b1355a5e20eec69d80bef67af370c1470976af8504ccaa3d6bdca7fed8d"},
     {file = "rapidyaml-0.9.0.post0-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:8334c27797f118770224a161578c8213575b209a5f25e730f489be6731033969"},
     {file = "rapidyaml-0.9.0.post0-cp313-cp313-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl", hash = "sha256:f92c2c5ac8657d8a448cefc2ec1817ad938696aacb0521d12323118179b97ce2"},
     {file = "rapidyaml-0.9.0.post0-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:e13c0dbf866f67dc496cef709e08fd844fb9ed34d16eff59ada8ef960981dc08"},
