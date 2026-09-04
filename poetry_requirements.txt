@@ -1,5 +1,5 @@
 backports.tarfile~=1.2.0
-build~=1.2.2.post1
+build~=1.6.0
 CacheControl~=0.14.3
 certifi~=2025.4.26
 cffi~=1.17.1
