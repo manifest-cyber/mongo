@@ -128,45 +128,45 @@ testing = ["pytest (>=6,!=7.0.0)", "pytest-xdist (>=2)"]
 
 [[package]]
 name = "boto3"
-version = "1.36.18"
+version = "1.43.88"
 description = "The AWS SDK for Python"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.10"
 groups = ["aws"]
 markers = "platform_machine != \"s390x\" and platform_machine != \"ppc64le\" or platform_machine == \"s390x\" or platform_machine == \"ppc64le\""
 files = [
-    {file = "boto3-1.36.18-py3-none-any.whl", hash = "sha256:084ff25af2d7bda3102d6367f5453e2e83f8cde1da73079ea144595b03cb9400"},
-    {file = "boto3-1.36.18.tar.gz", hash = "sha256:be8e32c34d7b103a64fafdd277fa1ec136733b4bbfc11dcfa597efa36a820b37"},
+    {file = "boto3-1.43.88-py3-none-any.whl", hash = "sha256:62efee681fefc9b14244d66ab66ead11dd4a32fec0a54ac9f23106003ef210ca"},
+    {file = "boto3-1.43.88.tar.gz", hash = "sha256:b3d03fba8ace049de27e3a6ed69b25a55d752f49d563394985e805ed5f0a0a74"},
 ]
 
 [package.dependencies]
-botocore = ">=1.36.18,<1.37.0"
+botocore = ">=1.43.88,<1.44.0"
 jmespath = ">=0.7.1,<2.0.0"
-s3transfer = ">=0.11.0,<0.12.0"
+s3transfer = ">=0.19.0,<0.20.0"
 
 [package.extras]
 crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.36.18"
+version = "1.43.88"
 description = "Low-level, data-driven core of boto 3."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.10"
 groups = ["aws"]
 markers = "platform_machine != \"s390x\" and platform_machine != \"ppc64le\" or platform_machine == \"s390x\" or platform_machine == \"ppc64le\""
 files = [
-    {file = "botocore-1.36.18-py3-none-any.whl", hash = "sha256:7898d109affd9231c555e71fda88308c1da2db8d39e83d33eb8cb40ebf1ba82f"},
-    {file = "botocore-1.36.18.tar.gz", hash = "sha256:ddadafe460e91f11677720a2fcc3ea09c4abb914de2b000da7ba46b4c97da3d7"},
+    {file = "botocore-1.43.88-py3-none-any.whl", hash = "sha256:1b59b6d74fb77b0c3934014b6693d56da4a9a172edb9454f9a5f711b4b3f7353"},
+    {file = "botocore-1.43.88.tar.gz", hash = "sha256:3c8a6e2292f05c590c5d5299934dd23c81d19a2b6dd70b9eb724f79bd432d04f"},
 ]
 
 [package.dependencies]
 jmespath = ">=0.7.1,<2.0.0"
 python-dateutil = ">=2.1,<3.0.0"
-urllib3 = {version = ">=1.25.4,<2.2.0 || >2.2.0,<3", markers = "python_version >= \"3.10\""}
+urllib3 = ">=1.25.4,<2.2.0 || >2.2.0,<3"
 
 [package.extras]
-crt = ["awscrt (==0.23.8)"]
+crt = ["awscrt (==0.36.0)"]
 
 [[package]]
 name = "bottle"
@@ -3902,8 +3902,17 @@ python-versions = ">=3.6"
 groups = ["powercycle-incompatible"]
 markers = "(platform_machine != \"s390x\" and platform_machine != \"ppc64le\" or platform_machine == \"s390x\" or platform_machine == \"ppc64le\") and python_version == \"3.13\""
 files = [
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-macosx_10_13_x86_64.whl", hash = "sha256:dacc7b634a836fd8d439321a4310aad6c23dba2a5936364a7a2c0d7704bcfae3"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:1b829e4652fe6bd70f868eb9e39ccc8bc2c3227bba491006493894e9a8fbaacc"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:3e0beeebf91779c50b7cfe3a3c7bc4a54fe78ddaa8e09dcbd8565408d01d3e6d"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl", hash = "sha256:bcd0535f284e200248d24b95e5ad0bb8caab639a74eb7b1d57c47ac6f6ad3b69"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:8803369277aea17d9302b2022015d19b83c5e3f2994263fdb114f1c2b8f6c33a"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:cad08b44de36f918ea952cb6b3dc3cf385a6a7de423ddacb77150f040e0d48e1"},
+    {file = "rapidyaml-0.9.0.post0-cp310-cp310-win_amd64.whl", hash = "sha256:96aa6dcb5d6d190478b6de45124fb26dd3f4db023dbe8fe9ed33de47883a7816"},
+    {file = "rapidyaml-0.9.0.post0-cp312-cp312-win_amd64.whl", hash = "sha256:d23cfe03a5523286c29cda795a3fd41c985d25b6bc93665b15d1e44717705738"},
     {file = "rapidyaml-0.9.0.post0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:5276ca91c401d5a8c0a2a97b3a63d7d42af7ed79be0aaa223ab73cdeb1ec35f1"},
     {file = "rapidyaml-0.9.0.post0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:6c0136ae1e3f06e9e5e123cbb8b3646507259c0292ed76ac152c302c40856cd6"},
+    {file = "rapidyaml-0.9.0.post0-cp313-cp313-macosx_26_0_x86_64.whl", hash = "sha256:33802b1355a5e20eec69d80bef67af370c1470976af8504ccaa3d6bdca7fed8d"},
     {file = "rapidyaml-0.9.0.post0-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:8334c27797f118770224a161578c8213575b209a5f25e730f489be6731033969"},
     {file = "rapidyaml-0.9.0.post0-cp313-cp313-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl", hash = "sha256:f92c2c5ac8657d8a448cefc2ec1817ad938696aacb0521d12323118179b97ce2"},
     {file = "rapidyaml-0.9.0.post0-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:e13c0dbf866f67dc496cef709e08fd844fb9ed34d16eff59ada8ef960981dc08"},
@@ -4314,22 +4323,22 @@ files = [
 
 [[package]]
 name = "s3transfer"
-version = "0.11.2"
+version = "0.19.2"
 description = "An Amazon S3 Transfer Manager"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.10"
 groups = ["aws"]
 markers = "platform_machine != \"s390x\" and platform_machine != \"ppc64le\" or platform_machine == \"s390x\" or platform_machine == \"ppc64le\""
 files = [
-    {file = "s3transfer-0.11.2-py3-none-any.whl", hash = "sha256:be6ecb39fadd986ef1701097771f87e4d2f821f27f6071c872143884d2950fbc"},
-    {file = "s3transfer-0.11.2.tar.gz", hash = "sha256:3b39185cb72f5acc77db1a58b6e25b977f28d20496b6e58d6813d75f464d632f"},
+    {file = "s3transfer-0.19.2-py3-none-any.whl", hash = "sha256:d8168eccca828cbb2cd573675333f3bddd254313a9c42494b84c76b539e8ba25"},
+    {file = "s3transfer-0.19.2.tar.gz", hash = "sha256:ba0309fd86be3c27dbf78cdd813c13c5e1df16e5874b99d2535ebbdfb9892993"},
 ]
 
 [package.dependencies]
-botocore = ">=1.36.0,<2.0a.0"
+botocore = ">=1.37.4,<2.0a.0"
 
 [package.extras]
-crt = ["botocore[crt] (>=1.36.0,<2.0a.0)"]
+crt = ["botocore[crt] (>=1.37.4,<2.0a.0)"]
 
 [[package]]
 name = "secretstorage"
