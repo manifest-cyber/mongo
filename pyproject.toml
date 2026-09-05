@@ -120,7 +120,7 @@ export = [
     # / Docker / Python installers read it directly. TOML can't do
     # command-substitution, so this string is checked for parity with
     # uv_version.txt by buildscripts/uv_lock_check.py.
-    "uv==0.11.13",
+    "uv==0.12.7",
 ]
 
 # bazel_rules_mongo (previously had its own poetry.lock/pyproject.toml). Its
