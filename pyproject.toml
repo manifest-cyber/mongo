@@ -84,7 +84,7 @@ build-metrics = [
 
 compile = [
     "ct3==3.4.0.post5",                       # Renamed from cheetah3
-    "packaging>=25.0,<26",
+    "packaging>=26.3,<27",
     "regex>=2024.11.6,<2025",
     "setuptools>=80.9.0,<81",
     "wheel==0.45.0",
@@ -176,7 +176,7 @@ idl = [
     # libxml2 (xmlHashScanner typedef mismatch). XML-format test reports
     # aren't needed on s390x archive_dist_test; mark it platform-conditional.
     "unittest-xml-reporting==3.2.0 ; platform_machine != 's390x'",
-    "packaging>=25.0,<26",
+    "packaging>=26.3,<27",
 ]
 
 jira-client = [
@@ -276,7 +276,7 @@ testing = [
     "pexpect>=4.9.0,<5",
     "oauthlib>=3.1.1,<4",
     "requests-oauthlib>=2.0.0,<3",
-    "packaging>=25.0,<26",
+    "packaging>=26.3,<27",
     "docker>=7.1.0,<8",
     "mongomock>=4.1.2,<5",
     "pyjwt>=2.12.0,<3",
