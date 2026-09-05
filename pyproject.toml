@@ -203,7 +203,7 @@ lint = [
     "tqdm",
     "colorama>=0.4.6,<0.5",
     "evergreen-lint>=0.1.10,<0.2",
-    "ruff>=0.6.7,<0.7",
+    "ruff>=0.16.5,<0.17",
     "license-expression>=30.4.4,<31",
 ]
 
