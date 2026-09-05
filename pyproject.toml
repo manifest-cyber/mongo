@@ -249,7 +249,7 @@ testing = [
     # applied in MODULE.bazel.
     "pykmip",
     "pyOpenSSL>=25.0.0,<26",
-    "kafka-python>=2.0.2,<3",
+    "kafka-python>=3.0.11,<4",
     "avro-python3>=1.10.2,<2",
     # evergreen-py upstream caps at python<3.14; project is constrained to
     # python 3.13 so we only need the marker for forward-compatibility.
