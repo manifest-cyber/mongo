@@ -220,7 +220,7 @@ modules_poc = [
 platform = [
     "pypiwin32>=223 ; sys_platform == 'win32'",
     "pywin32>=225 ; sys_platform == 'win32'",
-    "python-msilib>=0.5.0,<0.6 ; sys_platform == 'win32' and python_version >= '3.13'",
+    "python-msilib>=0.7,<0.8; sys_platform == 'win32' and python_version >= '3.13'",
     # cryptography 41+ ships a Rust extension and PyPI carries no
     # s390x / ppc64le wheels for it (only manylinux/musllinux x86_64 +
     # aarch64 + armv7l). For those archs we host pre-built manylinux_2_28
