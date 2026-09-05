@@ -86,7 +86,7 @@ compile = [
     "ct3==3.4.0.post5",                       # Renamed from cheetah3
     "packaging>=25.0,<26",
     "regex>=2024.11.6,<2025",
-    "setuptools>=80.9.0,<81",
+    "setuptools>=84,<85",
     "wheel==0.45.0",
 ]
 
