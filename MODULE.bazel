@@ -711,7 +711,7 @@ crate.spec(
         "gc",
     ],
     package = "wasmtime-cli",
-    version = "=44.0.1",
+    version = "=44.0.3",
 )
 
 # This causes us to build the actual binary and not just the rlib
