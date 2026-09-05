@@ -211,7 +211,7 @@ modules_poc = [
     "codeowners>=0.8.0,<0.9 ; platform_machine != 's390x' and platform_machine != 'ppc64le'",
     "progressbar2>=4.4.2,<5 ; platform_machine != 's390x' and platform_machine != 'ppc64le'",
     "textual[syntax]>=3.0.0,<4 ; platform_machine != 's390x' and platform_machine != 'ppc64le'",
-    "tree-sitter>=0.24.0,<0.25 ; platform_machine != 's390x' and platform_machine != 'ppc64le'",
+    "tree-sitter>=0.26,<0.27; platform_machine != 's390x' and platform_machine != 'ppc64le'",
     "tree-sitter-cpp>=0.23.4,<0.24 ; platform_machine != 's390x' and platform_machine != 'ppc64le'",
     "pyzstd>=0.16.2,<0.17 ; platform_machine != 's390x' and platform_machine != 'ppc64le'",
     "cffi>=2.0.0,<3",
