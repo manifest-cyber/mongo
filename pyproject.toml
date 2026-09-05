@@ -142,7 +142,7 @@ evergreen = [
     # broke typer 0.12.x (the version pinned in the `core` group below).
     # Cap at <8.2 until typer is bumped to a click-8.2+ compatible release
     # (typer >= 0.15).
-    "click>=8.1.7,<8.2",
+    "click>=8.5,<8.6",
     "inject>=5.2.1,<6",
     "GitPython>=3.1.43,<4",
     "pydantic>=2,<3",
