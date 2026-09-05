@@ -290,7 +290,7 @@ testing = [
     # `gcovr` pulls in lxml transitively; lxml ships no s390x cp313 wheel
     # (see the unittest-xml-reporting comment in the idl group). Code-
     # coverage builds aren't run on s390x, so excluding it there is safe.
-    "gcovr==7.2 ; platform_machine != 's390x'",
+    "gcovr==8.6; platform_machine != 's390x'",
     "opentelemetry-api",
     "opentelemetry-sdk",
     "opentelemetry-exporter-otlp-proto-common",
