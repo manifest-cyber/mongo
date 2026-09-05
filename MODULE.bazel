@@ -604,7 +604,7 @@ use_repo(rust_host, "rust_host_tools_nightly")
 crate = use_extension("@rules_rust//crate_universe:extensions.bzl", "crate")
 crate.spec(
     package = "wasmtime",
-    version = "=44.0.1",
+    version = "=44.0.3",
 )
 crate.spec(
     features = [
