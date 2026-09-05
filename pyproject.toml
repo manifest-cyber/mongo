@@ -161,7 +161,7 @@ evergreen = [
 external-auth = [
     # Dependencies of ldaptor
     "passlib>=1.7.4,<2",
-    "pyOpenSSL>=25.0.0,<26",
+    "pyOpenSSL>=26.4,<27",
     "pyparsing>=2.4.7,<3",
     "service_identity>=18.1.0,<19",
     "twisted>=26.4.0,<27",
@@ -248,7 +248,7 @@ testing = [
     # source handling is enabled by the uv_translator_url_source patch
     # applied in MODULE.bazel.
     "pykmip",
-    "pyOpenSSL>=25.0.0,<26",
+    "pyOpenSSL>=26.4,<27",
     "kafka-python>=2.0.2,<3",
     "avro-python3>=1.10.2,<2",
     # evergreen-py upstream caps at python<3.14; project is constrained to
