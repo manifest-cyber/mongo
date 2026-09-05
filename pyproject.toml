@@ -242,7 +242,7 @@ testing = [
     # matches the version protoc used to generate the file. Any other
     # major version raises. Matches master's pin. Regenerate the _pb2.py
     # via buildscripts/generate_bazel_spawn_pb2.py if bumping.
-    "protobuf==5.29.3",
+    "protobuf==5.29.6",
     # Matches master's mongodb-forks/PyKMIP pin. See [tool.uv.sources]
     # further down for the URL source configuration; rules_pycross's URL
     # source handling is enabled by the uv_translator_url_source patch
