@@ -163,7 +163,7 @@ external-auth = [
     "passlib>=1.7.4,<2",
     "pyOpenSSL>=25.0.0,<26",
     "pyparsing>=2.4.7,<3",
-    "service_identity>=18.1.0,<19",
+    "service_identity>=26.1,<27",
     "twisted>=26.4.0,<27",
     "twisted-iocpsupport>=1.0.4,<2 ; sys_platform == 'win32'",
     "zope.interface>=8.1.1,<9",
