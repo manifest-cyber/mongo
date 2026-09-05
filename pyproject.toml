@@ -162,7 +162,7 @@ external-auth = [
     # Dependencies of ldaptor
     "passlib>=1.7.4,<2",
     "pyOpenSSL>=25.0.0,<26",
-    "pyparsing>=2.4.7,<3",
+    "pyparsing>=3.3.2,<4",
     "service_identity>=18.1.0,<19",
     "twisted>=26.4.0,<27",
     "twisted-iocpsupport>=1.0.4,<2 ; sys_platform == 'win32'",
