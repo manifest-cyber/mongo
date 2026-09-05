@@ -112,7 +112,7 @@ powercycle-incompatible = [
 ]
 
 export = [
-    "pipx==1.6.0",
+    "pipx==1.16.7",
     # TODO: Add in pex as we move forward with this
     # "pex>=2.1.137,<3",
     # uv is referenced by buildscripts/uv_lock_check.py via `python -m uv`.
