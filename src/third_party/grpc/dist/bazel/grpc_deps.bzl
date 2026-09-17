@@ -339,11 +339,11 @@ def grpc_deps():
     if "com_envoyproxy_protoc_gen_validate" not in native.existing_rules():
         http_archive(
             name = "com_envoyproxy_protoc_gen_validate",
-            sha256 = "ab51e978326b87e06be7a12fc6496f3ff6586339043557dbbd31f622332a5d45",
-            strip_prefix = "protoc-gen-validate-1.2.1",
+            sha256 = "20da84f8efe8f53c10cbde79d2cdd1e63365b0ae1ad9de22af56aa1a49d59330",
+            strip_prefix = "protoc-gen-validate-1.3.3",
             urls = [
-                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/bufbuild/protoc-gen-validate/archive/refs/tags/v1.2.1.zip",
-                "https://github.com/bufbuild/protoc-gen-validate/archive/refs/tags/v1.2.1.zip",
+                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/bufbuild/protoc-gen-validate/archive/refs/tags/v1.3.3.zip",
+                "https://github.com/bufbuild/protoc-gen-validate/archive/refs/tags/v1.3.3.zip",
             ],
         )
 
