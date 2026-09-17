@@ -9,7 +9,7 @@
 #       //bazel/remote_execution_container:repin_dockerfiles \
 #       --config=local
 
-FROM redhat/ubi10:10.0@sha256:158b70012c4898a0951abc5b4f98cefff6ec6bff3fb99957ff2f1793df7c681a
+FROM redhat/ubi10:10.2-1788943607@sha256:60cd050b8dced7e972273b45bfd6052a2153475042f8b7c86d5e3e558b266780
 
 RUN yum check-update || true && \
     yum install -y \
