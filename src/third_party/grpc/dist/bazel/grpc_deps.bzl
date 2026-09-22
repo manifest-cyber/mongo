@@ -402,12 +402,12 @@ def grpc_test_only_deps():
     if "com_google_libprotobuf_mutator" not in native.existing_rules():
         http_archive(
             name = "com_google_libprotobuf_mutator",
-            sha256 = "9c8f800aed088cdf89adc3eaaa66b56b4da7da041f26338aa71a2ab43d860d46",
+            sha256 = "260408230cbb08009da01fb2445ac75e08576d85b57da47ad0a794b91429803f",
             urls = [
-                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/google/libprotobuf-mutator/archive/1f95f8083066f5b38fd2db172e7e7f9aa7c49d2d.tar.gz",
-                "https://github.com/google/libprotobuf-mutator/archive/1f95f8083066f5b38fd2db172e7e7f9aa7c49d2d.tar.gz",
+                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/google/libprotobuf-mutator/archive/c1c950eae0440c3808f2b8bd7c57d0c6a42c1a90.tar.gz",
+                "https://github.com/google/libprotobuf-mutator/archive/c1c950eae0440c3808f2b8bd7c57d0c6a42c1a90.tar.gz",
             ],
-            strip_prefix = "libprotobuf-mutator-1f95f8083066f5b38fd2db172e7e7f9aa7c49d2d",
+            strip_prefix = "libprotobuf-mutator-c1c950eae0440c3808f2b8bd7c57d0c6a42c1a90",
             build_file = "@com_github_grpc_grpc//third_party:libprotobuf_mutator.BUILD",
         )
 
