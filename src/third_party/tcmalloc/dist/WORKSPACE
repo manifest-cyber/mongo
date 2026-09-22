@@ -44,9 +44,9 @@ http_archive(
 # RE2
 http_archive(
     name = "com_googlesource_code_re2",
-    sha256 = "ef516fb84824a597c4d5d0d6d330daedb18363b5a99eda87d027e6bdd9cba299",
-    strip_prefix = "re2-03da4fc0857c285e3a26782f6bc8931c4c950df4",
-    urls = ["https://github.com/google/re2/archive/03da4fc0857c285e3a26782f6bc8931c4c950df4.tar.gz"],
+    sha256 = "cd4a75bdc0ec2e2506026ea4ccc9f0c429aceab8b6305b2cd30a1f4cc67644bc",
+    strip_prefix = "re2-972a15cedd008d846f1a39b2e88ce48d7f166cbd",
+    urls = ["https://github.com/google/re2/archive/972a15cedd008d846f1a39b2e88ce48d7f166cbd.tar.gz"],
 )
 
 # Google benchmark.
