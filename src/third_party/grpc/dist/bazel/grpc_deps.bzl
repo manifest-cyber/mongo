@@ -425,11 +425,11 @@ def grpc_module_deps():
     if "google_cloud_cpp" not in native.existing_rules():
         http_archive(
             name = "google_cloud_cpp",
-            sha256 = "81ea28cf9e5bb032d356b0187409f30b1035f8ea5b530675ea248c8a6c0070aa",
-            strip_prefix = "google-cloud-cpp-2.35.0",
+            sha256 = "8863056af88460e449264a976f64a0c9f4f3d98477cdad7770c2dca353fea68c",
+            strip_prefix = "google-cloud-cpp-2.47.1",
             urls = [
-                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/googleapis/google-cloud-cpp/archive/refs/tags/v2.35.0.tar.gz",
-                "https://github.com/googleapis/google-cloud-cpp/archive/refs/tags/v2.35.0.tar.gz",
+                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/googleapis/google-cloud-cpp/archive/refs/tags/v2.47.1.tar.gz",
+                "https://github.com/googleapis/google-cloud-cpp/archive/refs/tags/v2.47.1.tar.gz",
             ],
         )
 
