@@ -328,11 +328,11 @@ def grpc_deps():
     if "opencensus_proto" not in native.existing_rules():
         http_archive(
             name = "opencensus_proto",
-            sha256 = "b7e13f0b4259e80c3070b583c2f39e53153085a6918718b1c710caf7037572b0",
-            strip_prefix = "opencensus-proto-0.3.0/src",
+            sha256 = "e3d89f7f9ed84c9b6eee818c2e9306950519402bf803698b15c310b77ca2f0f3",
+            strip_prefix = "opencensus-proto-0.4.1/src",
             urls = [
-                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/census-instrumentation/opencensus-proto/archive/v0.3.0.tar.gz",
-                "https://github.com/census-instrumentation/opencensus-proto/archive/v0.3.0.tar.gz",
+                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/census-instrumentation/opencensus-proto/archive/v0.4.1.tar.gz",
+                "https://github.com/census-instrumentation/opencensus-proto/archive/v0.4.1.tar.gz",
             ],
         )
 
