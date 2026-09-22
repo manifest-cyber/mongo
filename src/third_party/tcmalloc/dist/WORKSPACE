@@ -28,9 +28,9 @@ http_archive(
 # Abseil
 http_archive(
     name = "com_google_absl",
-    sha256 = "f49929d22751bf70dd61922fb1fd05eb7aec5e7a7f870beece79a6e28f0a06c1",
-    strip_prefix = "abseil-cpp-4a2c63365eff8823a5221db86ef490e828306f9d",
-    urls = ["https://github.com/abseil/abseil-cpp/archive/4a2c63365eff8823a5221db86ef490e828306f9d.zip"],
+    sha256 = "e5cecdfc992f01bdc34ffed39fa9eebfc430273c9e5fe0555f0c124ab04bf749",
+    strip_prefix = "abseil-cpp-ee41bbdf12162c2beebd9347d7653380c8170c0a",
+    urls = ["https://github.com/abseil/abseil-cpp/archive/ee41bbdf12162c2beebd9347d7653380c8170c0a.zip"],
 )
 
 # GoogleTest/GoogleMock framework. Used by most unit-tests.
