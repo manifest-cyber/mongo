@@ -163,8 +163,8 @@ def protobuf_deps():
     if not native.existing_rule("build_bazel_rules_apple"):
         http_archive(
             name = "build_bazel_rules_apple",
-            sha256 = "86ff9c3a2c7bc308fef339bcd5b3819aa735215033886cc281eb63f10cd17976",
-            url = "https://github.com/bazelbuild/rules_apple/releases/download/3.16.0/rules_apple.3.16.0.tar.gz",
+            sha256 = "ee54e3624f2c0fcac47ce917dcaae13810c83d846163f46172ec98840b49e8da",
+            url = "https://github.com/bazelbuild/rules_apple/releases/download/5.1.0/rules_apple.5.1.0.tar.gz",
         )
 
     if not native.existing_rule("build_bazel_apple_support"):
