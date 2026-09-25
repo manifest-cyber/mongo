@@ -12,7 +12,7 @@
 # To update the docker images, follow the instructions in the
 # confluence page: go/devprod-build-update-rbe-containers.
 
-FROM amazonlinux:2023@sha256:32f61af6a24e178e8142fb7b0079f4af3a5cda6816cd53d2c611a921ef029ca0
+FROM amazonlinux:2027@sha256:b06f610969d9c3dd7c2ffd85d852dbb46f4120e107b076a79194b7a3e9fd9882
 
 RUN yum check-update || true && \
     yum install -y \
