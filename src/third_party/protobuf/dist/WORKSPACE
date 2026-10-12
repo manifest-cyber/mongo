@@ -146,9 +146,9 @@ http_archive(
     patches = [
         "@com_google_protobuf//:Disable_bundle_install.patch",
     ],
-    sha256 = "005da20827bee6b33d8ece7dc9973da293d7f8bb2ca07beaac43c31acaadbd31",
-    strip_prefix = "rules_ruby-0.17.3",
-    url = "https://github.com/bazel-contrib/rules_ruby/releases/download/v0.17.3/rules_ruby-v0.17.3.tar.gz",
+    sha256 = "c92c2102ead9f051b7bb19ed7075cc5c4617cdd20b313b5b2f598f9f45b3e315",
+    strip_prefix = "rules_ruby-0.29.0",
+    url = "https://github.com/bazel-contrib/rules_ruby/releases/download/v0.29.0/rules_ruby-v0.29.0.tar.gz",
 )
 
 load("@rules_ruby//ruby:deps.bzl", "rb_bundle_fetch", "rb_register_toolchains")
