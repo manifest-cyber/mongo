@@ -105,11 +105,11 @@ def grpc_deps():
     if "rules_cc" not in native.existing_rules():
         http_archive(
             name = "rules_cc",
-            sha256 = "abc605dd850f813bb37004b77db20106a19311a96b2da1c92b789da529d28fe1",
-            strip_prefix = "rules_cc-0.0.17",
+            sha256 = "44a8f325fa2b5cfb0ecaddda4365b3374eeefa1f97309fdb9301abb0897dfa7a",
+            strip_prefix = "rules_cc-0.2.26",
             urls = [
-                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/bazelbuild/rules_cc/releases/download/0.0.17/rules_cc-0.0.17.tar.gz",
-                "https://github.com/bazelbuild/rules_cc/releases/download/0.0.17/rules_cc-0.0.17.tar.gz",
+                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/bazelbuild/rules_cc/releases/download/0.2.26/rules_cc-0.2.26.tar.gz",
+                "https://github.com/bazelbuild/rules_cc/releases/download/0.2.26/rules_cc-0.2.26.tar.gz",
             ],
         )
 
