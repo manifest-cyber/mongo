@@ -223,10 +223,10 @@ install_deps()
 
 http_archive(
     name = "com_google_absl_py",
-    sha256 = "8a3d0830e4eb4f66c4fa907c06edf6ce1c719ced811a12e26d9d3162f8471758",
-    strip_prefix = "abseil-py-2.1.0",
+    sha256 = "fb48b6f99e36f33bc4d76cbc5ebb64a7c749a0c240d5274437702ac906dfa08d",
+    strip_prefix = "abseil-py-2.5.1",
     urls = [
-        "https://github.com/abseil/abseil-py/archive/refs/tags/v2.1.0.tar.gz",
+        "https://github.com/abseil/abseil-py/archive/refs/tags/v2.5.1.tar.gz",
     ],
 )
 
