@@ -170,8 +170,8 @@ def protobuf_deps():
     if not native.existing_rule("build_bazel_apple_support"):
         http_archive(
             name = "build_bazel_apple_support",
-            sha256 = "c4bb2b7367c484382300aee75be598b92f847896fb31bbd22f3a2346adf66a80",
-            url = "https://github.com/bazelbuild/apple_support/releases/download/1.15.1/apple_support.1.15.1.tar.gz",
+            sha256 = "114c1558db9b5683480969281a6dd2446989451200441390b67d8820ac2b04c3",
+            url = "https://github.com/bazelbuild/apple_support/releases/download/2.10.1/apple_support.2.10.1.tar.gz",
         )
 
     if not native.existing_rule("rules_kotlin"):
