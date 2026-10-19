@@ -56,9 +56,9 @@ def protobuf_deps():
     if not native.existing_rule("bazel_features"):
         http_archive(
             name = "bazel_features",
-            sha256 = "95fb3cfd11466b4cad6565e3647a76f89886d875556a4b827c021525cb2482bb",
-            strip_prefix = "bazel_features-1.10.0",
-            url = "https://github.com/bazel-contrib/bazel_features/releases/download/v1.10.0/bazel_features-v1.10.0.tar.gz",
+            sha256 = "f873244bb32a8701d03740d88b194074ef39d61545c64ec899bee325c8b76e9c",
+            strip_prefix = "bazel_features-1.52.0",
+            url = "https://github.com/bazel-contrib/bazel_features/releases/download/v1.52.0/bazel_features-v1.52.0.tar.gz",
         )
 
     if not native.existing_rule("bazel_skylib"):
