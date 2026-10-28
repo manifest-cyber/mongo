@@ -72,8 +72,8 @@ system_pip_parse(
 
 http_archive(
     name = "build_bazel_rules_swift",
-    sha256 = "bf2861de6bf75115288468f340b0c4609cc99cc1ccc7668f0f71adfd853eedb3",
-    url = "https://github.com/bazelbuild/rules_swift/releases/download/1.7.1/rules_swift.1.7.1.tar.gz",
+    sha256 = "d2a96eed71684877051e88dd2c2a772edbdb754de488cee066dd72cce240cfc6",
+    url = "https://github.com/bazelbuild/rules_swift/releases/download/4.2.2/rules_swift.4.2.2.tar.gz",
 )
 
 load(
