@@ -188,7 +188,7 @@ jira-client = [
     # datetimes returned by the Jira REST API. Previously arrived
     # transitively via `jira` under Poetry; making it a direct dep here so
     # the Bazel graph stays honest under pycross.
-    "python-dateutil>=2.9,<3",
+    "python-dateutil>=3,<4",
     # We are omitting pycrypto based on https://github.com/pycontribs/jira/pull/629
 ]
 
