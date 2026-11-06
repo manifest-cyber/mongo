@@ -198,7 +198,7 @@ lint = [
     "mypy>=1.11.1,<2",
     "structlog>=24.4.0,<26",
     "yamllint>=1.35.1,<2",
-    "types-setuptools>=80.9.0,<81",
+    "types-setuptools>=84,<85",
     "types-requests>=2.32.0.20240712,<3",
     "tqdm",
     "colorama>=0.4.6,<0.5",
