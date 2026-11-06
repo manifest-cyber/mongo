@@ -208,7 +208,7 @@ lint = [
 ]
 
 modules_poc = [
-    "codeowners>=0.8.0,<0.9 ; platform_machine != 's390x' and platform_machine != 'ppc64le'",
+    "codeowners>=0.9,<0.10; platform_machine != 's390x' and platform_machine != 'ppc64le'",
     "progressbar2>=4.4.2,<5 ; platform_machine != 's390x' and platform_machine != 'ppc64le'",
     "textual[syntax]>=3.0.0,<4 ; platform_machine != 's390x' and platform_machine != 'ppc64le'",
     "tree-sitter>=0.24.0,<0.25 ; platform_machine != 's390x' and platform_machine != 'ppc64le'",
