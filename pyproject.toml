@@ -18,7 +18,7 @@ packages = [
 dependencies = [
     "networkx",                               # This is also used as a part of build_metrics so it is sort of required
     "pyright==1.1.393",
-    "faker==37.1.0",
+    "faker==37.1.1",
     "pymongo==4.12.0",
 ]
 
