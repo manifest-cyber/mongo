@@ -87,7 +87,7 @@ compile = [
     "packaging>=25.0,<26",
     "regex>=2024.11.6,<2025",
     "setuptools>=80.9.0,<81",
-    "wheel==0.45.0",
+    "wheel==0.45.1",
 ]
 
 core = [
