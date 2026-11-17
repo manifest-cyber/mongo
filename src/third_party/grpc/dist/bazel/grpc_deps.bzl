@@ -230,11 +230,11 @@ def grpc_deps():
     if "bazel_features" not in native.existing_rules():
         http_archive(
             name = "bazel_features",
-            sha256 = "5ac743bf5f05d88e84962e978811f2524df09602b789c92cf7ae2111ecdeda94",
-            strip_prefix = "bazel_features-1.14.0",
+            sha256 = "2ed1fdce7e51ba2149dfab73eab6e402217c8e27d17e1d4a48d4d86bdd9eaef6",
+            strip_prefix = "bazel_features-1.55.0",
             urls = [
-                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/bazel-contrib/bazel_features/releases/download/v1.14.0/bazel_features-v1.14.0.tar.gz",
-                "https://github.com/bazel-contrib/bazel_features/releases/download/v1.14.0/bazel_features-v1.14.0.tar.gz",
+                "https://storage.googleapis.com/grpc-bazel-mirror/github.com/bazel-contrib/bazel_features/releases/download/v1.55.0/bazel_features-v1.55.0.tar.gz",
+                "https://github.com/bazel-contrib/bazel_features/releases/download/v1.55.0/bazel_features-v1.55.0.tar.gz",
             ],
         )
     if "rules_proto" not in native.existing_rules():
