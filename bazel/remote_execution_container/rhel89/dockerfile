@@ -12,7 +12,7 @@
 # To update the docker images, follow the instructions in the
 # confluence page: go/devprod-build-update-rbe-containers.
 
-FROM redhat/ubi8:8.9@sha256:83068ea81dd02717b8e39b55cdeb2c1b2c9a3db260f01381b991755d44b15073
+FROM redhat/ubi8:8.10-1794418922@sha256:44f19e308462e9152cb26d641fc0ce5bf6cbdab3cd101367aed67573eb2cf20e
 
 RUN yum check-update || true && \
     yum install -y \
