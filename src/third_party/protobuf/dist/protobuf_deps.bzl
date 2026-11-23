@@ -120,9 +120,9 @@ def protobuf_deps():
     if not native.existing_rule("rules_shell"):
         http_archive(
             name = "rules_shell",
-            sha256 = "410e8ff32e018b9efd2743507e7595c26e2628567c42224411ff533b57d27c28",
-            strip_prefix = "rules_shell-0.2.0",
-            url = "https://github.com/bazelbuild/rules_shell/releases/download/v0.2.0/rules_shell-v0.2.0.tar.gz",
+            sha256 = "12edf8c13d46c4408a860da4fd109b58e56f68cd1eb757746291f89e9ea6c17c",
+            strip_prefix = "rules_shell-0.10.0",
+            url = "https://github.com/bazelbuild/rules_shell/releases/download/v0.10.0/rules_shell-v0.10.0.tar.gz",
         )
 
     if not native.existing_rule("proto_bazel_features"):
